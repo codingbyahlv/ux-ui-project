@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>fiske.se - Allt om svenskt fiske</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7b7ad92c99.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="headerSection">
+      <div class="headerLogoWrapper">
+        <a href="index.html">
+          <img src="./images/logo.png" class="headerLogoImg" alt="Företagets logotyp i vitt och blått">
+        </a>
+      </div>
+      <nav class="navDesktop">
+        <a class="navLink activeLink" href="index.html">Hem</a>
+        <a class="navLink inactiveLink" href="events.html">Evenemang</a>
+        <a class="navLink inactiveLink" href="contact.html">Kontakt</a>
+      </nav>
+      <div class="menuBtn">
+        <div class="menu-btn-burger"></div>
+      </div>
+    </header>
+
+    <nav class="navMobile">
+      <a class="navLinkMobile" href="index.html"><i class="fa-solid fa-arrow-right"></i> Hem</a>
+      <a class="navLinkMobile" href="events.html">Evenemang</a>
+      <a class="navLinkMobile" href="contact.html">Kontakt</a>
+    </nav>
+
+    <main class="main">
+      <nav class="breadcrumbs" aria-label="breadcrumbs">
+        <ul class="navList">
+          <li><a href="index.html" aria-current="location">fiske.se</a></li>
+        </ul> 
+      </nav>
+
+      <section class="landingSection">
+        <h1 class="h1 landingHeading">Sveriges fiskesajt</h1>
+        <img src="images/home_landing.jpg" class="landingImg" alt="En ensam man sitter och fiskar i en båt och njuter av stillheten" >
+      </section>
+
+      <div class="aboutSection">
+        <section class="about">
+          <h2 class="h2">Om fiske.se</h2>
+          <p class="pIntro">Här samlar vi allt du behöver veta om fiske i våra svenska vatten.</p>
+          <p class="pBody">Från Smygehuk i söder till de nordliga fiskevattnen i Abisko. Här på 
+            fiske.se hittar du all information du kan behöva inför ditt nästa fiskeäventyr. Oavsett om det är 
+            havsfiske, en stilla tur i fjällens fiskevatten eller vid ån som flyter genom staden. </p>
+          <p class="pBody">Vi arrangerar också löpande olika evenemang runt om i landet för både rutinerade fiskare och nybörjare. </p>
+        </section>
+        <aside class="asideSection">
+          <h3 class="h3">Senaste nytt</h3>
+          <article class="news">
+            <div class="asideImgWrapper">
+              <img src="images/events_seaCourse.jpg" class="asideImg" alt="Tre havsfiskefiskespön på en båt">
+            </div>
+            <div class="asideTextWrapper">
+              <h4 class="h4">Havsfiskeanmälan öppnar</h4>
+              <p class="pBody">Anmälan till vårt populära havsfiske har nu öppnat.</p>
+              <a href="events.html#seaCourse" class="asideLink">Läs mer om evenemanget</a>
+            </div>
+          </article>
+        </aside>
+      </div>
+
+      <section class="tipsSection">
+        <h2 class="h2 center">Johan delar med sig av sina tips</h2>
+        <p class="pIntro center">I månadens avsnitt tipsar Johan om fiske i Uppsala län.</p>
+        <video class="video" controls>
+          <source src="media/fisketips.mp4" type="video/mp4">
+          <track kind="captions" src="media/captions.vtt" srclang="sv" label="Svenska">
+        </video>
+      </section>
+
+      <div class="fullWidthBg">
+        <section class="upComingEventsSection">
+            <h2 class="h2 center">Kommande evenemang</h2>
+            <p class="pIntro center">Ett urval av höstens evenemang. Hela programmet samt mer information 
+              hittar ni under vår flik <a href="events.html">Evenemang</a></p>
+            <div class="eventCardWrapper">
+              <article class="eventCard">
+                <div class="eventCardImgWrapper">
+                  <img class="eventCardImg" src="images/events_flyFishing.jpg" alt="Ett liggande flugfiskespö" >
+                </div>
+                <div class="eventCardTextWrapper">
+                  <h3 class="h3">Lär dig flugfiske</h3>
+                  <p class="pBody">Du får en händelserik dag ihop med vår bästa flugfiskeguide,
+                    och tillsammans tar ni er an dagens utmaningar.</p>
+                </div>
+                <a class="linkBtn" href="events.html#registrationForm">Till anmälan<br>Lär dig flugfiske</a>
+             </article>
+              <article class="eventCard">
+                <div class="eventCardImgWrapper">
+                  <img class="eventCardImg" src="images/events_womensWeekend.jpg" alt="Tjejer som fiskar tillsammans" >
+                </div>
+                <div class="eventCardTextWrapper">
+                  <h3 class="h3">Tjejernas helg</h3>
+                  <p class="pBody">En helg enbart för tjejer. Dagarna anpassas efter deltagarnas önskemål och 
+                    tidigare kunskaper.
+                  </p>
+                </div>
+                <a class="linkBtn" href="events.html#registrationForm">Till anmälan<br>Tjejernas helg</a>
+              </article>
+              <article class="eventCard">
+                <div class="eventCardImgWrapper">
+                  <img class="eventCardImg" src="images/events_seaCourse.jpg" alt="Tre havsfiskefiskespön på en båt" >
+                </div>
+                <div class="eventCardTextWrapper">
+                  <h3 class="h3">Havsfiske</h3>
+                  <p class="pBody">Vi beger oss ut för en heldag till sjöss. Nybörjare eller mer rutinerad, 
+                    dagen kommer passa er alla.</p>
+                </div>
+                <a class="linkBtn" href="events.html#registrationForm">Till anmälan<br>Havsfiske</a>
+              </article>
+            </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="contactWrapper">
+        <div class="contactCard">
+          <i class="fa-solid fa-location-dot"></i>
+          <article class="contactCardTextWrapper">
+            <h3 class="h3">Adress</h3>
+            <p class="pIntro">Storgatan 24</p>
+            <p class="pIntro">450 00 Drömstaden</p>
+          </article>
+        </div>
+        <div class="contactCard">
+          <i class="fa-solid fa-envelopes-bulk"></i>
+          <article  class="contactCardTextWrapper">
+            <h3 class="h3">Kontakt</h3>
+            <p class="pIntro">kontakt@fiske.se</p>
+            <p class="pIntro">0700 - 11 22 33</p>
+          </article>
+        </div>
+        <div class="socialMediaCard">
+          <div class="socialMediaWrapper">
+            <div class="contactCardIcon"><i class="fa-brands fa-facebook"></i></div>
+            <p class="pIntro">@fiske.se</p>
+          </div>
+          <div class="socialMediaWrapper">
+            <div class="contactCardIcon"><i class="fa-brands fa-instagram"></i></div>
+            <p class="pIntro">@fiske.se</p>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p class="pIntro">Copyright ©2022 fiske.se</p>
+      </div>
+    </footer>
+
+    <script src="app.js" async defer></script>
+  </body>
+</html>

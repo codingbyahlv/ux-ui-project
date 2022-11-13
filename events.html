@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>fiske.se - Allt om svenskt fiske</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7b7ad92c99.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="headerSection">
+      <div class="headerLogoWrapper">
+        <a href="index.html">
+          <img src="./images/logo.png" class="headerLogoImg" alt="Företagets logotyp i vitt och blått">
+        </a>
+      </div>
+      <nav class="navDesktop">
+        <a class="navLink inactiveLink" href="index.html">Hem</a>
+        <a class="navLink activeLink" href="events.html">Evenemang</a>
+        <a class="navLink inactiveLink" href="contact.html">Kontakt</a>
+      </nav>
+      <div class="menuBtn">
+        <div class="menu-btn-burger"></div>
+      </div>
+    </header>
+
+    <nav class="navMobile">
+      <a class="navLinkMobile" href="index.html">Hem</a>
+      <a class="navLinkMobile" href="events.html"><i class="fa-solid fa-arrow-right"></i> Evenemang</a>
+      <a class="navLinkMobile" href="contact.html">Kontakt</a>
+    </nav>
+
+    <main class="main">
+      <nav class="breadcrumbs" aria-label="breadcrumbs">
+        <ul class="navList">
+          <li><a href="index.html" >fiske.se</a><span aria-hidden="true">></span></li>
+          <li><a href="events.html" aria-current="location">Evenemang</a></li>
+        </ul> 
+      </nav>
+
+      <section class="landingSection">
+        <h1 class="h1 landingHeading">Evenemang</h1>
+        <img src="./images/event_landing.jpg" class="landingImg" alt="Man flugfiskar i en å" >
+      </section>
+
+      <section class="upcomingEvents">
+        <h2 class="h2 center">Höstens kommande evenemang</h2>
+        <p class="pIntro center">Här kan du läsa allt om höstens alla kommande evenemang.</p>
+        <div class="eventWrapper">
+          <article class="event">
+            <div class="eventImgWrapper">
+              <img src="./images/events_flyFishing.jpg" class="eventImg" alt="Ett liggande flugfiskespö" >
+            </div>
+            <div class="eventTextWrapper">
+              <h3 class="h3">Lär dig flugfiske</h3>
+              <table class="infoTable">
+                <tr>
+                  <th colspan="2">Information</th>
+                </tr>
+                <tr>
+                  <td>Datum:</td>
+                  <td>2022-07-21</td>
+                </tr>
+                <tr>
+                  <td>Anmälan senast</td>
+                  <td>2022-06-21</td>
+                </tr>
+              </table>
+              <p class="pBody">Du får en händelserik dag ihop med vår bästa flugfiskeguide,
+                och tillsammans tar ni er an dagens utmaningar.</p>
+              <p class="pBody">Lättare lunch ingår som vi äter tillsammans vid vattenbrynet.</p>
+              <a class="linkBtn" href="events.html#registrationForm">Till anmälan<br>Lär dig flugfiske</a>
+            </div>
+          </article>
+          <article class="event">
+            <div class="eventImgWrapper">
+              <img src="./images/events_womensWeekend.jpg" class="eventImg" alt="Tjejer som fiskar tillsammans" >
+            </div>
+            <div class="eventTextWrapper">
+              <h3 class="h3">Tjejernas helg</h3>
+              <table class="infoTable">
+                <tr>
+                  <th colspan="2">Information</th>
+                </tr>
+                <tr>
+                  <td>Datum:</td>
+                  <td>2022-08-27 & 2022-08-28</td>
+                </tr>
+                <tr>
+                  <td>Anmälan senast</td>
+                  <td>2022-07-27</td>
+                </tr>
+              </table>
+              <p class="pBody">En helg enbart för tjejer. Dagarna anpassas efter deltagarnas önskemål och 
+                tidigare kunskaper.</p>
+              <p class="pBody">Lunch och middag ingår samt att det även finns möjlighet till övernattning.</p>
+              <a class="linkBtn" href="events.html#registrationForm">Till anmälan<br>Tjejernas helg</a>
+            </div>
+          </article>
+          <article class="event" id="seaCourse">
+            <div class="eventImgWrapper">
+              <img src="./images/events_seaCourse.jpg" class="eventImg" alt="Tre havsfiskefiskespön på en båt" >
+            </div>
+            <div class="eventTextWrapper">
+              <h3 class="h3">Havsfiske</h3>
+              <table class="infoTable">
+                <tr>
+                  <th colspan="2">Information</th>
+                </tr>
+                <tr>
+                  <td>Datum:</td>
+                  <td>2022-07-21</td>
+                </tr>
+                <tr>
+                  <td>Anmälan senast</td>
+                  <td>2022-06-21</td>
+                </tr>
+              </table>
+              <p class="pBody">Vi beger oss ut för en heldag till sjöss. Nybörjare eller mer rutinerad, 
+                dagen kommer passa er alla. </p>
+              <p class="pBody">Fika och lättare lunch igår på båten och dagen avslutas med att vi tillsammans
+                lagar till dagens fångst till middag i land.
+              </p>
+              <a class="linkBtn" href="events.html#registrationForm">Till anmälan<br>Havsfiske</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div class="fullWidthBg" id="registrationForm" >
+        <section class="formSection">
+          <h2 class="h2 center">Anmälan till evenemang</h2>
+          <div class="formTextWrapper">
+            <p class="pIntro">Via formuläret kan du anmäla dig till våra evenemang. </p>
+            <p class="pBody">Du får alltid en bekräftelse på att vi mottagit din anmälan. 
+              Håll utkik i skräpposten om det inte dyker upp något.</p>
+          </div>
+          <form class="formWrapper" id="form" onsubmit="submitForm(); return false;">
+            <div class="inputWrapper">
+              <label for="name" class="formLabel">
+               Namn *
+              </label>
+              <input
+                class="formInput"
+                id="name"
+                type="text"
+                name="name"
+                placeholder="Namn"
+                required
+              >
+            </div>
+            <div class="inputWrapper">
+              <label for="email" class="formLabel">
+               E-post *
+              </label>
+              <input
+                class="formInput"
+                id="email"
+                type="email"
+                name="email"
+                placeholder="exempel@exempel.se"
+                required
+              >
+            </div>
+            <div class="inputWrapper">
+              <label for="event" class="formLabel">
+               Välj evenemang du vill anmäla dig till
+              </label>
+              <select id="event" class="formInput">
+                <option selected disabled>Välj evenemang i menyn</option>
+                <option value="flyFishing">Lär dig flugfiske</option>
+                <option value="womensWeekend">Tjejernas helg</option>
+                <option value="seaCourse">Havsfiske</option>
+              </select>
+            </div>
+            <div class="inputWrapper">
+              <label for="message" class="formLabel">
+                Eventuellt meddelande
+               </label>
+               <textarea id="message" class="formInput formTextarea" placeholder="Skriv ditt meddelande här"></textarea>
+            </div>
+            <div class="formBtnWrapper">
+              <button class="btnWhite" type="button" onclick="resetForm()">Rensa formulär</button>
+              <button class="btnGreen" type="submit" id="sendRegistration">Skicka anmälan</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="contactWrapper">
+        <div class="contactCard">
+          <i class="fa-solid fa-location-dot"></i>
+          <article class="contactCardTextWrapper">
+            <h3 class="h3">Adress</h3>
+            <p class="pIntro">Storgatan 24</p>
+            <p class="pIntro">450 00 Drömstaden</p>
+          </article>
+        </div>
+        <div class="contactCard">
+          <i class="fa-solid fa-envelopes-bulk"></i>
+          <article  class="contactCardTextWrapper">
+            <h3 class="h3">Kontakt</h3>
+            <p class="pIntro">kontakt@fiske.se</p>
+            <p class="pIntro">0700 - 11 22 33</p>
+          </article>
+        </div>
+        <div class="socialMediaCard">
+          <div class="socialMediaWrapper">
+            <div class="contactCardIcon"><i class="fa-brands fa-facebook"></i></div>
+            <p class="pIntro">@fiske.se</p>
+          </div>
+          <div class="socialMediaWrapper">
+            <div class="contactCardIcon"><i class="fa-brands fa-instagram"></i></div>
+            <p class="pIntro">@fiske.se</p>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p class="pIntro">Copyright ©2022 fiske.se</p>
+      </div>
+    </footer>
+
+    <script src="app.js" async defer></script>
+  </body>
+</html>
